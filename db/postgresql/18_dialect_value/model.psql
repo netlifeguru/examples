@@ -1,0 +1,2 @@
+--CountUsers
+SELECT COUNT(*) FROM users

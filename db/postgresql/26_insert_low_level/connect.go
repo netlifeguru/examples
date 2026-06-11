@@ -1,0 +1,25 @@
+package main
+
+import (
+	"os"
+
+	"github.com/netlifeguru/db"
+	postgres "github.com/netlifeguru/db-postgres"
+)
+
+func connectDB() (db.Conn, error) {
+	conn := postgres.New()
+
+	cfg := db.Config{
+		Host:     os.Getenv("DB_HOST"),
+		Database: os.Getenv("DB_NAME"),
+		Username: os.Getenv("DB_USER"),
+		Password: os.Getenv("DB_PASSWORD"),
+	}
+
+	if err := conn.CreatePool(cfg); err != nil {
+		return nil, err
+	}
+
+	return conn.Fork(), nil
+}

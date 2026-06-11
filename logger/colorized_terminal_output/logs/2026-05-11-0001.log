@@ -1,0 +1,14 @@
+{"time":"2026-05-11T12:18:13.367992+02:00","level":"INFO","msg":"application started"}
+{"time":"2026-05-11T12:18:13.368261+02:00","level":"WARN","msg":"warning message"}
+{"time":"2026-05-11T12:18:13.36828+02:00","level":"ERROR","msg":"error message"}
+{"time":"2026-05-11T12:22:39.553471+02:00","level":"INFO","msg":"application started"}
+{"time":"2026-05-11T12:22:39.553634+02:00","level":"WARN","msg":"warning message"}
+{"time":"2026-05-11T12:22:39.553647+02:00","level":"ERROR","msg":"error message"}
+{"time":"2026-05-11T12:22:39.553658+02:00","level":"INFO","msg":"user authenticated","user_id":42,"role":"admin"}
+{"time":"2026-05-11T12:23:34.506262+02:00","level":"INFO","msg":"application started"}
+{"time":"2026-05-11T12:23:34.506448+02:00","level":"WARN","msg":"warning message"}
+{"time":"2026-05-11T12:23:34.506466+02:00","level":"ERROR","msg":"error message"}
+{"time":"2026-05-11T12:23:38.591723+02:00","level":"INFO","msg":"application started"}
+{"time":"2026-05-11T12:23:38.591986+02:00","level":"WARN","msg":"warning message"}
+{"time":"2026-05-11T12:23:38.592015+02:00","level":"ERROR","msg":"error message"}
+{"time":"2026-05-11T12:23:38.592038+02:00","level":"INFO","msg":"user authenticated","user_id":42,"role":"admin"}

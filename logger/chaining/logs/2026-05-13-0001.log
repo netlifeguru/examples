@@ -1,0 +1,2 @@
+{"time":"2026-05-13T09:53:26.41839+02:00","level":"INFO","msg":"login attempt","service":"auth","request_id":"abc-123","user_id":42}
+{"time":"2026-05-13T09:57:42.510847+02:00","level":"INFO","msg":"login attempt","service":"auth","request_id":"abc-123","user_id":42}
